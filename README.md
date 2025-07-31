@@ -74,23 +74,6 @@ app/Models/Product.php – Product model
 
 database/migrations/...create_products_table.php – Initial schema
 
-✅ Setup Instructions
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/ecommerce-api.git
-cd ecommerce-api
-
-composer install
-cp .env.example .env
-php artisan key:generate
-
-# Set DB credentials in .env
-
-php artisan migrate
-php artisan storage:link
-
-php artisan serve
 🧪 Example Test (Postman)
 Register/login → copy token.
 
